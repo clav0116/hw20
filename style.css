@@ -1,0 +1,206 @@
+.jumbotron {
+    text-align: center;
+    background-color: #E5683B;
+    color: white;  
+    /* background-image: url(https://svgsilh.com/svg/1331952-8bc34a.svg); */
+}
+.jumbotron1 {
+    text-align: center;
+    background-color: #E5683B;
+    color: white;  
+    padding: 10%;
+}
+
+.jumbotron1:hover {
+    background-color: #9BC995; 
+}
+
+.lead {
+    margin: auto;
+}
+
+.btn{
+    margin-top: 3%;
+    background-color: #00A2D3; 
+    font-family: urw-din, sans-serif;
+    border: white;
+}
+
+.btn:hover {
+    background-color: #E5683B;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    padding-top: 7%;
+}
+
+.padding {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.hpadding {
+    padding-top: 2%;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pp {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sloth {
+    width: 80%;
+    display: block;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.cstudy {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    /* margin-top: 5%; */
+    padding: 2%;
+    border: white;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.row {
+    padding: 1%;
+}
+
+.navcolor {
+    background-color:white; 
+}
+
+.col {
+    padding: 20px;
+}
+
+.fontscript {
+    font-family: scriptorama-tradeshow-jf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fontrift {
+    font-family: rift, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fontriftb {
+    font-family: rift, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.fonturw {
+    font-family: urw-din, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.fontlogo {
+    font-family: regulator-nova-cameo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.lead{
+    font-family: urw-din, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#C7EEFA;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.pop {
+    color: black;
+}
+
+.nav-link {
+    font-family: urw-din, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carousel-item {
+    width: 60%;
+    height: 30%;
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.maincontainer {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: yellow;
+}
+} */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #contentContainer .jumbotron .jumbotron1{
+      width: 96%
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+.phonedisplay {
+    width: 96%; 
+}
